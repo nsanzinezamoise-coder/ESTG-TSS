@@ -141,7 +141,6 @@ function ContentCreatorRegistration() {
                   placeholder="••••••••"
                 />
               </div>
-
               {/* Role Selection */}
               <div>
                 <label
@@ -151,8 +150,6 @@ function ContentCreatorRegistration() {
                   Content Role <span className="text-red-500">*</span>
                 </label>
                 <select
-                  value={Form.role}
-                  onChange={(e) => setForm({ ...Form, role: e.target.value })}
                   id="role"
                   name="role"
                   required
