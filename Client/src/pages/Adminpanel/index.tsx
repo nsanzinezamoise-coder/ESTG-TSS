@@ -11,7 +11,7 @@ function Adminpanel() {
   const [activeTab, setActiveTab] = React.useState(0);
 
   const [isSidebarOpen, setIsSidebarOpen] = React.useState(false);
-  const navigate = useNavigate()
+  // Removed duplicate declaration of navigate
 
   const isAdmin = localStorage.getItem("role") === "Admin";
 
